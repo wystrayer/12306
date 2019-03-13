@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/text_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="车站选择"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:background="#0099ff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/image_search"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/search"
+                android:layout_weight="0.01" />
+
+            <EditText
+                android:id="@+id/editText_station"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="搜索" />
+        </LinearLayout>
+        <TextView
+            android:background="#d6caca"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Usualluy_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/sation_selection_item"
+                android:gravity="center"
+                android:text="最近常用"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/StationList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/sation_selection_item"
+                android:gravity="center"
+                android:text="车站列表"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:focusable="true"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_station"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <include layout="@layout/tab_menu"/>
+</LinearLayout>

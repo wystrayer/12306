@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff0000</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_gray">#b9a6ad</color>
+    <color name="station_gray">#e7e0e0</color>
+    <color name="button_blue">#0099ff</color>
+    <color name="zitou_blue">#0099ff</color>
+    <color name="blue">#0084ff</color>
+    <color name="black">#fa000000</color>
+    <color name="stationType_guo">#fa0000ff</color>
+    <color name="stationType_shi">#faff6a00</color>
+    <color name="stationType_zhong">#fa00ff00</color>
+    <color name="canlendar_text_color">#323232</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/tab_menu2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/menu2_beginTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg_selector"
+            android:gravity="center"
+            android:textColor="@color/tab_menu_text_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="发时"/>
+
+        <TextView
+            android:id="@+id/menu2_duration"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg_selector"
+            android:gravity="center"
+            android:textColor="@color/tab_menu_text_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="历时"/>
+
+        <TextView
+            android:id="@+id/menu2_ArriveTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg_selector"
+            android:gravity="center"
+            android:textColor="@color/tab_menu_text_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="到时"/>
+
+        <TextView
+            android:id="@+id/menu2_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg_selector"
+            android:gravity="center"
+            android:textColor="@color/tab_menu_text_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="票价/余票"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

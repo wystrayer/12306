@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f2f2"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的12306"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:background="#0099ff"
+            android:layout_marginBottom="40sp"/>
+
+        <TextView
+            android:id="@+id/my12306_login"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/title_text"
+            android:gravity="center_vertical|left"
+            android:textSize="20sp"
+            android:text="登录"/>
+        <TextView
+            android:id="@+id/my12306_regsiter"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_login"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="注册"
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:id="@+id/my12306_Chuxingdaohang"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_regsiter"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="出行导航"/>
+
+        <TextView
+            android:id="@+id/my12306_Wenxifuwu"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_Chuxingdaohang"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="温馨服务"/>
+        <TextView
+            android:id="@+id/my12306_Xinxifuwu"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_Wenxifuwu"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="信息服务"
+            android:layout_marginBottom="20sp"/>
+        <TextView
+            android:id="@+id/my12306_Luxingxiuxing"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_Xinxifuwu"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="旅行休闲"
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:id="@+id/my12306_xitongtongzhi"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_Luxingxiuxing"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="系统通知" />
+        <TextView
+            android:id="@+id/my12306_about"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@id/my12306_xitongtongzhi"
+            android:textSize="20sp"
+            android:gravity="center_vertical|left"
+            android:text="关于" />
+
+    </RelativeLayout>
+    <include layout="@layout/tab_menu"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.13"
+        android:background="#0099ff"
+        android:gravity="center"
+        android:text="商务服务"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/sever_dingcan"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/dingcan"/>
+        <TextView
+            android:id="@+id/sever_yueche"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/yueche"/>
+        <TextView
+            android:id="@+id/sever_more"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/more"/>
+    </LinearLayout>
+    <include layout="@layout/tab_menu"/>
+</LinearLayout>
